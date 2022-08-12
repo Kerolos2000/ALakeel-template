@@ -1,0 +1,384 @@
+html{
+	scroll-behavior: smooth;
+    
+}
+body{
+	font-family: "Almarai", sans-serif;
+  color: #0e0c34;  
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #a2de96;
+    border-color: #a2de96;
+}
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .show > .btn-outline-success.dropdown-toggle{
+   color: #fff;
+    background-color: #a2de96;
+    border-color: #a2de96; 
+}
+hr {
+    border-top: 1px solid rgb(162 222 150);
+    box-shadow: 0px 4px 15px 1px #9ed992db;
+}
+
+.img-fluid {
+    padding: 7%;
+    transition: 0.7s;
+}
+
+.img-fluid:hover{
+    padding: 15px;
+    transform: rotate(55deg);
+}
+
+.navbar{
+	color:#a2de96 ;
+}
+
+.container-fluid{
+	font-size: large;
+}
+.textoflogo{
+	font-size:xx-large;
+	margin-top:3px;
+	color: black;
+	
+}
+
+#nav-link1{
+	color: black;
+}
+
+#nav-link1:hover{
+color:#a2de96;
+}
+
+
+.nav-link :hover{
+color: yellow;
+}
+
+.card-body1{
+    text-align: right;
+    padding-bottom: 13%;
+    padding-top: 13%;
+    padding-right: 6%;
+}
+.card-title1{
+	font-size: xx-large;
+	font-weight: bold;
+}
+.card-title2{
+	color:#a2de96 ;
+	font-weight: bold;
+}
+.card-title3{
+	font-size: 17px;
+    padding-top: 10px;
+
+}
+
+.card-img-top{
+	margin-top: 55px;
+    height: 80px;
+}
+.card-title{
+	font-weight: bold;
+}
+.card-title4 , .card-title5 ,.card-title6 {
+	text-align: center;
+	font-weight: bold;
+}
+.card-text{
+	text-align: center;
+}
+#advantages,#advantages .card{
+	background: #111c17;
+    color: white;
+}
+.why{
+	text-align: center;
+    padding: 45px;
+    height: 100px;
+}
+
+.card-body{
+	padding: 9%;
+}
+.title-menu{
+	text-align: right;
+}
+.btn{
+text-align: right;
+}
+.btn1{
+	text-align: left;
+}
+h2{
+	font-weight: 900;
+}
+.card-img-top1 {
+    margin-top: 15px;
+    height: 80%;
+    border-radius: 5%;
+}
+.card-img-top{
+      transition: 0.5s;  
+}
+.card-img-top:hover{
+    transform: rotate(15deg);
+}
+.row {
+    padding-bottom: 55px;
+}
+
+#cta .container .img-fluid{
+	padding: 10px;
+	border-radius: 30px;
+
+}
+
+#cta .container{
+	border-radius: 40px;
+    background-image: url(../images/reservation.png);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+#cta .row {
+    background-color: rgba(162, 222, 150, 0.9);
+    width: 50%;
+    border-radius: 40px;
+    text-align: center;
+    height: 100%;
+}
+
+h1{
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    text-align: right;
+}
+
+form-group {
+    margin-right: 180px;
+}
+input {
+    justify-content: right;
+    justify-items: right;
+    justify-self: right;
+    text-align: right;
+    border: 1.5px dashed #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+fieldset{
+	text-align: center;
+}
+label{
+	display: inline-block;
+    margin-bottom: 0.5rem;
+    color: white;
+    margin-top: 11px;
+}
+
+#menu p{
+        margin-top: 15px;
+}
+
+/*3D Card*/
+:root{
+    --width: 230px;
+    --height: 320px;
+    --de: 50px;
+}
+.cardd{
+    width: var(--width);
+    height: var(--height);
+
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
+.cardd {
+    margin-left: -15px;
+    margin-right: 83px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.side{
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    border: 1px dashed #28a745;
+    border-radius:5% ;
+}
+.left{
+    width:var(--de) ;
+    height: var(--height);
+    background-color: #053610;
+    transform-origin: left;
+    transform: translateX(var(--width)) rotateY(90deg);
+}
+.bottom{
+    width: var(--width);
+    height: var(--de);
+    background-color: #a2de96;
+    transform-origin: top;
+    transform: translateY(var(--height)) rotateX(-90deg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-brands{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.4s;
+}
+.fa-brands:hover{
+    background-color: #fff;
+    color: #222;
+    transition: 1s;
+}
+.main{
+    width: var(--width);
+    height: var(--height);
+}
+.main img{
+    width: 100%;
+    height: 80%;
+    border: 1px dashed #28a745;
+    border-radius:5% ;
+}
+.cardd:hover{
+    transform: rotateX(60deg)rotateY(-30deg);
+
+}
+p.cardd-text1 {
+    text-align: center;
+    margin-top: 10%;
+
+}
+.cardd-text {
+    text-align: center;
+    color: white;
+}
+
+#reviews{
+    background: #111c17;
+    color: white;
+}
+
+.img {
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: 6rem;
+}
+.card-body2 {
+    text-align: right;
+    margin-top: 8rem;
+}
+.card-text1 {
+    text-align: right;
+    font-size: larger;
+}
+
+.checked {
+  color: orange;
+}
+.stars {
+    margin-right: 60%;
+}
+.checked {
+  color: orange;
+}
+.card5{
+  background: #2c3b28;
+}
+.h1{
+    text-align: center;
+    padding: 5%;
+
+}
+.carousel-indicators {
+ left: 35px;
+ }
+
+.col-md-4 {
+ text-align: center;
+}
+.card-title7{
+    text-align: right;
+}
+.card-text4{
+    text-align: right;
+}
+
+#contact .row{
+    padding-bottom: 0;
+}
+#contact .btn {
+    text-align: left;
+    margin-right: 11%;
+    margin-bottom: 6%;
+    margin-top: -7%;
+}
+#contact .card{
+    border: 1px dashed #28a745;
+    border-radius:5% ;
+}
+
+#footer .img1{
+        height: 2rem;
+    margin-top: 2rem;
+}
+
+#footer a:hover {
+    color: #a2de96;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#footer h3{
+        font-weight: bold;
+}
+#footer li{
+        margin-left: 25%;
+}
+#footer a{
+    color: white;
+}
+#footer b{
+    color: white;
+}
+#footer .row{
+        padding-top: 6%;
+    padding-bottom: 6.8%;
+}
+#footer{
+    background: #111c17;
+    color: white;
+}
+
+#footer .col-12 li {
+    margin-left: 12%;
+}
+
+
+section#head {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
